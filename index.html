@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Test Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="main-title">Load Test Website</h1>
+
+    <button id="colorBtn">Change Title Background</button>
+
+    <div id="div-id">
+
+        <p>
+            This page is used to observe how HTML, CSS, JavaScript, and image resources
+            load in the browser using the Network tab.
+        </p>
+
+        <ol>
+            <li>Open <b>Inspect / Developer Tools</b>.</li>
+            <li>Go to the <b>Network</b> tab.</li>
+            <li>Observe the following:
+                <ul>
+                    <li>Total transferred size</li>
+                    <li>Actual resource size</li>
+                    <li>Time taken to load Cloudinary images</li>
+                    <li>Compare first load vs reload</li>
+                </ul>
+            </li>
+        </ol>
+
+    </div>
+    <div class="iframe-container">
+
+        <div id="spinner" class="spinner"></div>
+
+        <iframe id="imageFrame"></iframe>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
